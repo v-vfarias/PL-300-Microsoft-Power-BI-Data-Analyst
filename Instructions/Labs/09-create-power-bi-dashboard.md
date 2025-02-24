@@ -31,7 +31,7 @@ In this task, you'll set up the environment for the lab by creating a semantic m
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to **My Workspace**.
 
-1. Select **Upload > Browse**.
+1. Select **Import > Report or Paginated Report > From this computer**.
 
 1. Navigate to **C:\Users\Student\Downloads\09-create-dashboard** folder.
 
