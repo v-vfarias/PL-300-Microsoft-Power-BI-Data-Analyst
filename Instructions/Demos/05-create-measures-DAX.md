@@ -51,7 +51,7 @@ Cost = 'Sales'[Quantity] * RELATED('Product'[Cost])
 
 ## Create a Quick Measure
 
-1. Add a quick measure to the Sales table, subtracting the Cost column from Profit column.
+1. Add a quick measure to the Sales table, subtracting the Cost column from Sales column.
 
 1. Rename the measure as Profit.
 
