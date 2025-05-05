@@ -360,7 +360,7 @@ In this exercise, you'll publish the report to the Power BI service and explore 
 
      ![Picture 86](Linked_image_Files/07-design-report-in-power-bi-desktop_image66.png)
 
-1. Hover the cursor over one of the visuals again, then at the top-right, select the ellipsis (…), and then notice the menu options. Try out each of the options, except **Chat in Teams**.
+1. Hover the cursor over one of the visuals again, then at the top-right, select the ellipsis (…), and then notice the menu options. Try out each of the options, except the ones within **Share**.
 
      ![Picture 97](Linked_image_Files/07-design-report-in-power-bi-desktop_image67.png)
 

@@ -43,13 +43,13 @@ In this task, you’ll create a bar chart showing sales amount, total product co
 
 1. Drag the **Sales** and **Cost** fields from the **Sales** table into the **X-axis** well/area.
 
-> Notice that when you added Sales and Cost to the visual, the sum of each field was automatically calculated.
+    > Notice that when you added Sales and Cost to the visual, the sum of each field was automatically calculated.
 
 1. Sort the resulting bar chart by **Year** ascending by using the three-dot menu and selecting **Year** followed by **Sort ascending**:
 
    ![Picture 02](Linked_image_Files/05b-create-visual-calculations-in-power-bi-desktop_image02.png)
 
-> You now have a bar chart showing the Sum of Sales and Sum of Cost by Year sorted chronologically.
+    > You now have a bar chart showing the Sum of Sales and Sum of Cost by Year sorted chronologically.
 
 ### Add calculations
 
@@ -59,9 +59,9 @@ In this task, you’ll create a bar chart showing sales amount, total product co
 
 1. The visual calculations edit window opens. In the formula bar above the visual matrix enter the following expression and then Enter to commit the calculation:
 
-   ```DAX
+    ```DAX
    Profit = [Sum of Sales] – [Sum of Cost]
-   ```
+    ```
 
 1. Confirm you now see a Profit column on the visual matrix at the bottom of the screen:
 
@@ -69,7 +69,7 @@ In this task, you’ll create a bar chart showing sales amount, total product co
 
 1. Expand the menu under **New visual calculation** and select **Versus previous** from the template options:
 
-> **Versus Previous** compares a value to a preceding value, so we see the Profit compared to the previous value for Year.
+    > **Versus Previous** compares a value to a preceding value, so we see the Profit compared to the previous value for Year.
 
    ![Picture 05](Linked_image_Files/05b-create-visual-calculations-in-power-bi-desktop_image05.png)
 
@@ -77,23 +77,23 @@ In this task, you’ll create a bar chart showing sales amount, total product co
 
 1. Select **Running sum** from the templates menu and replace the `[Field]` placeholder with `[Profit]` and commit the calculation.
 
-> **Running sum** calculates the sum of values, adding the current value to the preceding values, so we see the total of current and previous years.
+    > **Running sum** calculates the sum of values, adding the current value to the preceding values, so we see the total of current and previous years.
 
 1. Select **Moving average** from the templates menu and replace the `[Field]` placeholder with `[Profit]` and the `WindowSize` placeholder with 2. You should now have the following set up:
 
-> **Moving average** calculates an average of a set of values in a given window by dividing the sum of the values by the size of the window. By setting the window size to 2, we are calculating the average of two consecutive values. In this example, the values are yearly profits, so we see the moving average for FY2019 is the average of the profits for FY2018 and FY2019.
+    > **Moving average** calculates an average of a set of values in a given window by dividing the sum of the values by the size of the window. By setting the window size to 2, we are calculating the average of two consecutive values. In this example, the values are yearly profits, so we see the moving average for FY2019 is the average of the profits for FY2018 and FY2019.
 
    ![Picture 06](Linked_image_Files/05b-create-visual-calculations-in-power-bi-desktop_image06.png)
 
 1. Under the **X-axis** well/area, select the visibility icon of the following fields to hide them from the visual:
 
-   - Sum of Sales
-   - Sum of Cost
-   - Profit
+    - Sum of Sales
+    - Sum of Cost
+    - Profit
 
    ![Picture 07](Linked_image_Files/05b-create-visual-calculations-in-power-bi-desktop_image07.png)
 
-> Notice how the fields and calculations you hid are now no longer shown on the visual.
+    > Notice how the fields and calculations you hid are now no longer shown on the visual.
 
 1. In the **Visualizations** pane, drag **Running sum** and **Moving average** to the **Tooltips** well/area.  
 
@@ -101,7 +101,7 @@ In this task, you’ll create a bar chart showing sales amount, total product co
 
    ![Picture 08](Linked_image_Files/05b-create-visual-calculations-in-power-bi-desktop_image08.png)
 
-> You now have a bar chart with the following values: Sum of Sales, Sum of Cost, Profit, and Profit *versus previous* with tooltips for Profit *running sum* and Profit *moving average*.
+    > You now have a bar chart with the following values: Sum of Sales, Sum of Cost, Profit, and Profit *versus previous* with tooltips for Profit *running sum* and Profit *moving average*.
 
 ## Create a matrix visual
 
@@ -113,11 +113,11 @@ In this task, you'll create a matrix visual that compares the sales amount per c
 
 1. Add the following fields to the visual wells/areas:
 
-     - Rows: **Product \| Category**
-     - Columns: **Date \| Year**
-     - Values: **Sales \| Sales**
+    - Rows: **Product \| Category**
+    - Columns: **Date \| Year**
+    - Values: **Sales \| Sales**
 
- > *The labs use a shorthand notation to reference a field. It will look like this: **Date \| Year**. In this example, **Date** is the table name and **Year** is the field name.*
+    > *The labs use a shorthand notation to reference a field. It will look like this: **Date \| Year**. In this example, **Date** is the table name and **Year** is the field name.*
 
 ### Add calculations
 
@@ -125,25 +125,25 @@ In this task, you'll create a matrix visual that compares the sales amount per c
 
 1. In the visual calculations edit window, type and save the following calculation:
 
-   ```DAX
-    Versus first = [Sum of Sales] - FIRST([Sum of Sales])
-   ```
+    ```DAX
+   Versus first = [Sum of Sales] - FIRST([Sum of Sales])
+    ```
 
-> Notice how the matrix shows the difference in sales amount for each category versus the first category.
+    > Notice how the matrix shows the difference in sales amount for each category versus the first category.
 
 1. Select the field **Versus first** in the **Values** well/area and update your calculation by adding the ROWS value for the Axis parameter to FIRST:
 
-   ```DAX
-    Versus first = [Sum of Sales] - FIRST([Sum of Sales], ROWS)
-   ```
+    ```DAX
+   Versus first = [Sum of Sales] - FIRST([Sum of Sales], ROWS)
+    ```
 
-> Notice how nothing changes as ROWS is the default value for the Axis parameter.
+    > Notice how nothing changes as ROWS is the default value for the Axis parameter.
 
 1. Replace ROWS with COLUMNS and observe that the calculation now compares the sales amount per category against the first fiscal year:
 
    ![Picture 11](Linked_image_Files/05b-create-visual-calculations-in-power-bi-desktop_image11.png)
 
-> Notice how the **Versus first** column for the **Total Sales** returns zero instead of the difference against the first fiscal year. **Total Sales** is on a different hierarchical level than the yearly sums, and therefore, considered the first column on that level.
+    > Notice how the **Versus first** column for the **Total Sales** returns zero instead of the difference against the first fiscal year. **Total Sales** is on a different hierarchical level than the yearly sums, and therefore, considered the first column on that level.
 
 1. Exit out of the visual calculations edit screen to your report.
 
@@ -157,8 +157,8 @@ In this task, you'll create a line chart that shows the running sum for sales. T
 
 1. Add the following fields to the visual wells/areas:
 
-     - X-axis: **Date \| Year** and **Date \| Quarter**
-     - Y-axis: **Sales \| Sales**
+    - X-axis: **Date \| Year** and **Date \| Quarter**
+    - Y-axis: **Sales \| Sales**
 
 ### Add running sum
 
@@ -172,9 +172,9 @@ In this task, you'll create a line chart that shows the running sum for sales. T
 
 1. While still in the visual calculations edit window, select the **Running sum** field under **Y-axis** and update the expression for this calculation by adding the HIGHESTPARENT reset parameter and commit the changes:
 
-   ```DAX
-    Running sum = RUNNINGSUM([Sum of Sales], HIGHESTPARENT)
-   ```
+    ```DAX
+   Running sum = RUNNINGSUM([Sum of Sales], HIGHESTPARENT)
+    ```
 
 Verify that the running sum indeed restarts for every new fiscal year:
 
