@@ -100,10 +100,6 @@ In this exercise, you'll enhance the drillthrough page with conditional formatti
 
     ![Picture 9](Linked_image_Files/09-enhance-power-bi-reports_image29.png)
 
-1. In the **Icons – Profit Margin** window, in the **Apply to** dropdown list, select **Values and totals**.
-
-    ![Picture 10](Linked_image_Files/09-enhance-power-bi-reports_image30a.png)
-
 1. In the **Icons – Profit Margin** window, in the **Icon Layout** dropdown list, select **Right of Data**.
 
     ![Picture 11](Linked_image_Files/09-enhance-power-bi-reports_image30.png)
@@ -129,6 +125,10 @@ In this exercise, you'll enhance the drillthrough page with conditional formatti
     ![Picture 13](Linked_image_Files/09-enhance-power-bi-reports_image32.png)
 
     > _The rules can be interpreted as follows: display a red diamond if the profit margin value is less than 0; otherwise if the value is greater than or equal to zero, display a green circle._
+
+1. In the **Icons – Profit Margin** window, in the **Apply to** dropdown list, select **Values and totals**.
+
+    ![Picture 10](Linked_image_Files/09-enhance-power-bi-reports_image30a.png)
 
 1. Select **OK**.
 
