@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Create dashboards in Power BI'
+    title: '(Optional) Create dashboards in Power BI'
     module: 'Create dashboards in Power BI'
 ---
 
