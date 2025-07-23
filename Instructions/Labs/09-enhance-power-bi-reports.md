@@ -279,7 +279,7 @@ In this exercise, you'll publish the report to the Power BI service and explore 
 
 1. In the browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), select **My Workspace**.
 
-1. To explore the report, select the _07-Starter-Sales Analysis_ report.
+1. To explore the report, select the _09-Starter-Sales Analysis_ report.
 
 1. To test the drill through feature, in the _Overview_ page, in the _Sum of Quantity by Category_ visual, right-click the _Clothing_ bar, and then select **Drill Through > Product Details**.
 
