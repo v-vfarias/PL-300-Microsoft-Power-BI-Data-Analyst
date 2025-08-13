@@ -95,7 +95,7 @@ In this task, you'll create model relationships. The file was configured to not 
 
     ![Picture 7](Linked_image_Files/03-configure-semantic-model-table-with-relationship.png)
 
-### Create additional relationships
+## Create additional relationships
 
 There's an easier way to create a relationship. In the model diagram, you can drag and drop columns to create a new relationship.
 

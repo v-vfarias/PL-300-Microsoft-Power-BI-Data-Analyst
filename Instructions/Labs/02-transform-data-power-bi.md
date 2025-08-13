@@ -104,7 +104,7 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 **At the bottom-left, in the status bar, verify that the query has 5 columns and 18 rows.**
 
-## **Configure the SalespersonRegion query**
+## Configure the SalespersonRegion query
 
 In this task, you'll configure the **SalespersonRegion** query.
 
@@ -432,7 +432,7 @@ In this task, you'll update the **ColorFormats** to disable its load.
 
 	![Picture 323](Linked_image_Files/02-transform-data-power-bi_image81.png)
 
-### Review final product
+## Review final product
 
 1. In Power Query Editor, verify that you have **8 queries**, correctly named as follows:
 

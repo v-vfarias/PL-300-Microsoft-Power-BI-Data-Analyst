@@ -6,7 +6,7 @@ lab:
 
 # Get data in Power BI
 
-## **Lab story**
+## Lab story
 
 This lab is designed to introduce you to Power BI Desktop application and how to connect to data and how to use data preview techniques to understand the characteristics and quality of the source data.
 
@@ -73,7 +73,7 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
 You've now connected to six tables from a SQL Server database.
 
-## **Preview Data in Power Query Editor**
+## Preview Data in Power Query Editor
 
 This task introduces the Power Query Editor and allows you to review and profile the data. This helps you determine how to clean and transform the data later. You'll also review both dimension tables prefixed with "Dim" and fact tables prefixed with "Fact".
 
@@ -141,7 +141,7 @@ This task introduces the Power Query Editor and allows you to review and profile
 
     > *Missing **TotalProductCost** column values is a data quality issue.*
 
-## **Get data from a CSV file**
+## Get data from a CSV file
 
 In this task, you'll create a new query based on CSV files.
 

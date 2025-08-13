@@ -6,7 +6,7 @@ lab:
 
 # Create visual calculations in Power BI Desktop
 
-## **Lab story**
+## Lab story
 
 In this lab, you'll create visual calculations using Data Analysis Expressions (DAX).
 
@@ -51,7 +51,7 @@ In this task, you’ll create a bar chart showing sales amount, total product co
 
     > You now have a bar chart showing the Sum of Sales and Sum of Cost by Year sorted chronologically.
 
-### Add calculations
+## Add calculations
 
 1. With the bar chart selected, select **New visual calculation** in the ribbon:
 
@@ -119,7 +119,7 @@ In this task, you'll create a matrix visual that compares the sales amount per c
 
     > *The labs use a shorthand notation to reference a field. It will look like this: **Date \| Year**. In this example, **Date** is the table name and **Year** is the field name.*
 
-### Add calculations
+## Add calculations
 
 1. With the matrix selected, select **New visual calculation** in the ribbon.
 
@@ -160,7 +160,7 @@ In this task, you'll create a line chart that shows the running sum for sales. T
     - X-axis: **Date \| Year** and **Date \| Quarter**
     - Y-axis: **Sales \| Sales**
 
-### Add running sum
+## Add running sum
 
 1. With the line chart selected, expand the menu under **New visual calculation** and select **Running sum** from the template options.
 
@@ -168,7 +168,7 @@ In this task, you'll create a line chart that shows the running sum for sales. T
 
    ![Picture 09](Linked_image_Files/07-create-visual-calculations_image09.png)
 
-### Update running sum to restart every new fiscal year
+## Update running sum to restart every new fiscal year
 
 1. While still in the visual calculations edit window, select the **Running sum** field under **Y-axis** and update the expression for this calculation by adding the HIGHESTPARENT reset parameter and commit the changes:
 
