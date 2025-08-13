@@ -60,7 +60,7 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
     > ***Note**: The preview data allows you to see the columns and a sample of rows.*
 
-1. To import the table data, **select the checkbox** next to the following tables:
+1. Select the following tables by **checking the boxes** next to their names.
 
     - DimEmployee
     - DimEmployeeSalesTerritory
