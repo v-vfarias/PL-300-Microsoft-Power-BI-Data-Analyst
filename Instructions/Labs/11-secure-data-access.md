@@ -27,13 +27,13 @@ Extract the folder to the **C:\Users\Student\Downloads\11-secure-data** folder.
 
 Open the **11-Starter-Sales Analysis.pbix** file.
 
-> ***Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes.*
+> _**Note**: You may see a sign-in dialog as the file loads. Select **Cancel** to dismiss the sign-in dialog. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
 ## Enforce row-level security
 
 In this task, you'll enforce row-level security to ensure a salesperson can only see sales made in their assigned region(s).
 
-1. Switch to Table view.
+1. Switch to **Table view**.
 
    ![Picture 5701](Linked_image_Files/11-secure-data-access_image20.png)
 
@@ -104,3 +104,13 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 *Note: When the Power BI Desktop file is published to the Power BI service, you’ll need to complete a post-publication task to map security principals to the **Salespeople** role. You won’t do that in this lab.*
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. 
+
+1. Close the Microsoft Edge browser window.
+1. In Power BI Desktop, navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.

@@ -28,7 +28,7 @@ Extract the file to the **C:\Users\Student\Downloads\09-enhanced-report** folder
 
 Open the **09-Starter-Sales Analysis.pbix** file.
 
-> _**Note**: You can dismiss the sign-in by selecting **Cancel**. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
+> _**Note**: You may see a sign-in dialog as the file loads. Select **Cancel** to dismiss the sign-in dialog. Close any other informational windows. Select **Apply Later**, if prompted to apply changes._
 
 ## Configure a drillthrough page
 
@@ -249,7 +249,7 @@ In this exercise, you'll enhance the _My Performance_ page with buttons, allowin
 
 In this exercise, you'll publish the report to the Power BI service and explore the published report behavior.
 
-> _**Note**: You'll need at least a **Power BI Free** license to publish the report. Open the Microsoft Edge browser, then sign in at `https://app.powerbi.com`. When asked to solve a puzzle, or to start a free Fabric trial, you can skip this and close the browser.
+> _**Note**: You'll need at least a **Power BI Free** license to publish the report. Open the Microsoft Edge browser, and navigate to_ `https://app.powerbi.com`_.  Sign in with the credentials for the Microsoft 365 tenant provided by your authorized lab hoster (ALH). When asked to solve a puzzle, or to start a free Fabric trial, you can skip this and close the browser._
 
 > _**Note**: You can review the remainder of the exercise, even if you don't have access to the Power BI service to perform the tasks directly._
 
@@ -294,3 +294,6 @@ In this exercise, you'll publish the report to the Power BI service and explore 
 1. Select each of the buttons, and then notice that a different visual is displayed.
 
 ## Lab complete
+
+1. Close Microsoft Edge browser.
+1. Close Power BI Desktop.
