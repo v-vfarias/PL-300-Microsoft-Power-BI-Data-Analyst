@@ -81,7 +81,7 @@ This task introduces the Power Query Editor and allows you to review and profile
 
      ![List of loaded queries](Linked_image_Files/01-get-data-in-power-bi_image20.png)
 
-1. Select the first query—**DimEmployee**.
+1. Select the **DimEmployee** query.
 
     > *The **DimEmployee** table in the SQL Server database stores one row for each employee. A subset of the rows from this table represents the salespeople, which will be relevant to the model you’ll develop.*
 
