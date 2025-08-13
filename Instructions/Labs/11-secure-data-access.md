@@ -105,7 +105,7 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 
 ## Lab complete
 
-You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+You may choose to save your Power BI report, though it’s not necessary for this lab. 
 
 1. Close the Microsoft Edge browser window.
 1. In Power BI Desktop, navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
