@@ -212,7 +212,7 @@ In this task, you'll create several measures with DAX expressions that use the `
 
 1. Notice that the `Sales % Group` measure now only returns a value when a region or country is in scope.
 
-1. In Model view, place the three new measures into a display folder named _Ratios_.
+1. In **Model view**, place the three new measures into a display folder named _Ratios_.
 
     ![Picture 10](Linked_image_Files/05-modify-dax-filter-context_image20.png)
 

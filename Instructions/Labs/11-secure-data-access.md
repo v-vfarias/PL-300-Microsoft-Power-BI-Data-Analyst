@@ -33,7 +33,7 @@ Open the **11-Starter-Sales Analysis.pbix** file.
 
 In this task, you'll enforce row-level security to ensure a salesperson can only see sales made in their assigned region(s).
 
-1. Switch to Table view.
+1. Switch to **Table view**.
 
    ![Picture 5701](Linked_image_Files/11-secure-data-access_image20.png)
 

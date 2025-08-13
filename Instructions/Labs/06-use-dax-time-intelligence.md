@@ -32,7 +32,7 @@ Open the **06-Starter-Sales Analysis.pbix** file.
 
 In this task, you'll create a sales year-to-date (YTD) measure by using time intelligence functions.
 
-1. In Power BI Desktop, in Report view, on **Page 2**, notice the matrix visual that displays various measures with years and months grouped on the rows.
+1. In Power BI Desktop, in **Report view**, on **Page 2**, notice the matrix visual that displays various measures with years and months grouped on the rows.
 
 2. Add a measure to the `Sales` table, based on the following expression, and formatted to zero decimal places:
 
@@ -122,7 +122,7 @@ In this task, you'll create a sales YoY growth measure by using a variable.
 
     > _The YoY growth measure identifies almost 400 percent (or 4x) increase of sales during the same period of the previous year._
 
-1. In Model view, place the two new measures into a display folder named _Time intelligence_.
+1. In **Model view**, place the two new measures into a display folder named _Time intelligence_.
 
     ![Picture 4](Linked_image_Files/06-use-dax-time-intelligence-functions_image24.png)
 
