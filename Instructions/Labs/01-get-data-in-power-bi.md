@@ -44,7 +44,7 @@ This task teaches you how to connect to a SQL Server database and import tables,
 
 1. In the **SQL Server Database** window, in the **Server** box, enter **localhost** and leave **Database** blank, then select **OK**.
 
-    > ***Note**: In this lab, you’ll connect to the SQL Server database by using **localhost**. While this approach works here, it’s not recommended for your own solutions because gateway data sources can’t resolve **localhost**.*
+    > ***Note**: In this lab, you’ll connect to the SQL Server database by using **localhost**. While this is fine for the lab, it’s not considered a best practice for real-world solutions.*
 
 1. If prompted for credentials, select **Windows > Use my current credentials**, and then **Connect**.
 
