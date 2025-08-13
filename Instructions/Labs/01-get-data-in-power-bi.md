@@ -155,7 +155,7 @@ In this task, you'll create a new query based on CSV files.
 
     > *The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). The business year for the Adventure Works company commences on July 1.*
 
-1. Notice that no column contains empty values.  When there isn’t a monthly sales target, a hyphen character is stored instead.
+1. Notice that no column contains empty values.  If a monthly sales target is missing, the column shows a hyphen instead.
 
 1. Review the icons in each column header, to the left of the column name. The icons represent the column data type. **123** is whole number, and **ABC** is text.
 
