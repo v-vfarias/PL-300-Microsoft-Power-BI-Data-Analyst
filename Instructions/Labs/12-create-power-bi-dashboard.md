@@ -198,3 +198,5 @@ In this task, you'll review the dashboard to notice updated sales.
     ![Picture 33](Linked_image_Files/12-create-power-bi-dashboard_image50.png)
 
 ## Lab complete
+
+1. Close the Microsoft Edge browser window.

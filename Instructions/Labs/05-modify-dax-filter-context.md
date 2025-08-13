@@ -221,3 +221,12 @@ In this task, you'll create several measures with DAX expressions that use the `
 > _The measures added to the `Sales` table have modified filter context to achieve hierarchical navigation. Notice that the pattern to achieve the calculation of a subtotal requires removing some columns from the filter context, and to arrive at a grand total, all columns must be removed._
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+
+1. Navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.

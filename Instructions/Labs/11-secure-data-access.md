@@ -104,3 +104,13 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 *Note: When the Power BI Desktop file is published to the Power BI service, you’ll need to complete a post-publication task to map security principals to the **Salespeople** role. You won’t do that in this lab.*
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+
+1. Close the Microsoft Edge browser window.
+1. In Power BI Desktop, navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.

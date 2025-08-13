@@ -454,3 +454,12 @@ In this task, you'll update the **ColorFormats** to disable its load.
 	![Picture 3](Linked_image_Files/02-transform-data-power-bi_image84.png)
 
 ## Lab complete
+
+You may choose to save your Power BI report, though it’s not necessary for this lab. In the next exercise, you’ll work with a pre-made starter file.
+
+1. Navigate to the **"File"** menu in the top left corner and select **"Save As"**. 
+1. Select **Browse this device**.
+1. Select the folder where you want to save the file and give it a descriptive name. 
+1. Select the **Save** button to save your report as a .pbix file. 
+1. If a dialog box appears prompting you to apply pending query changes, select **Apply**.
+1. Close Power BI Desktop.
