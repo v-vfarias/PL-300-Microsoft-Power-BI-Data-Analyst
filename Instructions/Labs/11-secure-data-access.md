@@ -8,12 +8,7 @@ lab:
 
 ## Lab story
 
-In this lab, you'll enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
-
-In this lab, you learn how to:
-
-- Enforce row-level security.
-- Choose between dynamic and static methods.
+In this lab, you'll enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s). You will enforce row-level security using dynamic method.
 
 **This lab should take approximately 20 minutes.**
 
