@@ -186,9 +186,9 @@ In this task, you'll configure the **Reseller** query.
 	- StateProvinceName
 	- EnglishCountryRegionName
 
-1. On the **Business Type** column header, select the down-arrow, and then review the distinct column values, and notice both values **Warehouse** and **Ware House**.
+1. On the **BusinessType** column header, select the down-arrow, and then review the distinct column values, and notice both values **Warehouse** and **Ware House**.
 
-1. Right-click the **Business Type** column header, and then select **Replace Values**.
+1. Right-click the **BusinessType** column header, and then select **Replace Values**.
 
 1. In the **Replace Values** window, configure the following values:
 
