@@ -55,7 +55,7 @@ In this task, you'll use Power Query Editor to configure the **Salesperson** que
 
 	![Manage columns > Choose columns > Go to column](Linked_image_Files/02-transform-data-power-bi_image13.png)
 
-1. In the **Go to Column** window, to order the list by column name, select the **AZ** sort button, and then select **Name** and **SalesPersonFlag**. Select **OK**.
+1. In the **Go to Column** window, to order the list by column name, select the **AZ** sort button, and then select **Name**. 
 
 	![Go to column sort options](Linked_image_Files/02-transform-data-power-bi_image14.png)
 
