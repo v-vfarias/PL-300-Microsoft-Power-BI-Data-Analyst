@@ -238,7 +238,7 @@ In this task, you'll mark the `Date` table as a date table.
 
     ![Picture 21](Linked_image_Files/04-create-dax-calculations_image31a.png)
 
-1. In the **Mark as a Date Table** window, slide the **Mark as a Date Table** property to _Yes_.
+1. In the **Mark as a Date Table** window, slide the **Mark as a Date Table** property to _On_.
 
 1. In the **Choose a date column** dropdown list, select **Date**.
 
