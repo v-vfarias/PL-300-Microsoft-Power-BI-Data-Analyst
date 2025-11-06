@@ -136,7 +136,7 @@ In this task, you'll configure the `Product` table with a hierarchy and display 
 
     ![Picture 11](Linked_image_Files/03-configure-semantic-model-create-hierarchy-rename.png)
 
-1. Two add levels to the hierarchy, in the **Hierarchy** dropdown list, select **Subcategory** and then select **Product**, and then select **Apply Level Changes**.
+1. To add levels to the hierarchy, in the **Hierarchy** dropdown list, select **Subcategory** and then select **Product**, and then select **Apply Level Changes**.
 
     ![Picture 12](Linked_image_Files/03-configure-semantic-model-create-hierarchy-levels.png)
 

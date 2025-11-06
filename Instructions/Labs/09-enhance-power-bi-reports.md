@@ -226,11 +226,7 @@ In this exercise, you'll enhance the _My Performance_ page with buttons, allowin
 
 1. Set the **Fill** section to **On**, and then set a color by using a complementary color.
 
-1. Set the **Action** section to **On**, and then set the **Type** property to **Bookmark**.
-
-1. Select **Button** and turn the **Action** property to **On**.
-
-1. Expand the **Action** section, and then set the **Type** dropdown list to **Bookmark**.
+1. Set the **Action** section to **On**, expand the tab and then set the **Type** property to **Bookmark**.
 
 1. In the **Bookmark** dropdown list, select **Bar Chart ON**.
 
@@ -267,7 +263,7 @@ In this exercise, you'll publish the report to the Power BI service and explore 
 
     ![Picture 28](Linked_image_Files/09-enhance-power-bi-reports_image52.png)
 
-1. In the **Publish to Power BI** window, notice that _My workspace_ is selected.
+1. In the **Publish to Power BI** window, ensure that _My workspace_ is selected.
 
 1. To publish the report, select **Select**. Wait until the publication completes.
 

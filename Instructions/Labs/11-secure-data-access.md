@@ -48,7 +48,7 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 
    ![Picture 5703](Linked_image_Files/11-secure-data-access_image23.png)
 
-1. To assign a filter, select the **Salesperson (Performance)** table, and then select **Switch to DAX editor** in the **Filter data** section.
+1. To assign a filter, select the **Salesperson (Performance)** table, and then select **Switch to DAX editor** in the **Rules** section.
 
    ![Picture 5703](Linked_image_Files/11-secure-data-access_image24.png)
 
@@ -76,7 +76,7 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 
    ![Picture 5709](Linked_image_Files/11-secure-data-access_image28.png)
 
-1. Notice the yellow banner above the report page, describing the test security context.
+1. Notice the red banner above the report page, describing the test security context.
 
    ![Picture 13](Linked_image_Files/11-secure-data-access_image30.png)
 
@@ -84,7 +84,7 @@ In this task, you'll enforce row-level security to ensure a salesperson can only
 
    ![Picture 5713](Linked_image_Files/11-secure-data-access_image31.png)
 
-1. To stop testing, at the right side of the yellow banner, select **Stop Viewing**.
+1. To stop testing, at the right side of the red banner, select **Stop Viewing**.
 
    ![Picture 5712](Linked_image_Files/11-secure-data-access_image32.png)
 
