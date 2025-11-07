@@ -186,7 +186,7 @@ In this task, you'll add more columns to enable filtering and grouping by differ
 
 1. Switch back to **Report view**.
 
-1. In the **Data** pane and select the `Month` field.
+1. In the **Data** pane, select the `Month` field.
 
 1. On the **Column Tools** contextual ribbon, from inside the **Sort** group, select **Sort by Column**, and then select **MonthKey**.
 

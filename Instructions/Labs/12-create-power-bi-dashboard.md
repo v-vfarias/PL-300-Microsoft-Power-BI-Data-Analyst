@@ -33,7 +33,7 @@ In this task, you'll set up the environment for the lab by creating a semantic m
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to **My Workspace**.
 
-1. Select **Import > Report or Paginated Report > From this computer**.
+1. Select **Import > Report, Paginated Report or Workbook > From this computer**.
 
 1. Navigate to **C:\Users\Student\Downloads\12-create-dashboard** folder.
 
@@ -95,7 +95,7 @@ In this task, you'll create the **Sales Monitoring** dashboard. You'll pin a vis
 
     ![Picture 15](Linked_image_Files/12-create-power-bi-dashboard_image28.png)
 
-1. When prompted to pin the tile to the **Sales Monitoring** dashboard, select **Pin**.
+1. When prompted, select **Sales Monitoring** from the drop-down menu, select **Pin**.
 
 1. To return to the dashboard, at the top-left corner, select **Exit Q&amp;A**.
 
@@ -167,7 +167,7 @@ In this task, you'll run a PowerShell script to update data in the **AdventureWo
 
 In this task you'll open the **12-Starter-Sales Analysis** Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
 
-1. In Power BI Desktop file, in the **Data** pane, right-click the **Sales** table, and then select **Refresh Data**.
+1. In Power BI Desktop file, in the **Data** pane, right-click the **Sales** table, and then select **Refresh > Data**.
 
     ![Picture 55](Linked_image_Files/12-create-power-bi-dashboard_image47.png)
 
