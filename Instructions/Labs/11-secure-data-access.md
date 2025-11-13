@@ -8,7 +8,10 @@ lab:
 
 ## Lab story
 
-In this lab, you'll enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s). You will enforce row-level security using dynamic method.
+In this lab, you'll enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s). You learn how to:
+
+- Implement dynamic row-level security (RLS) in Power BI.
+- Create and test a role using USERPRINCIPALNAME().
 
 **This lab should take approximately 20 minutes.**
 
