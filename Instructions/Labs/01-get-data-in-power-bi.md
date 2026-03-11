@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Get data in Power BI'
-    module: 'Get data in Power BI'
+  title: Get data in Power BI
+  module: Get data in Power BI
+  description: https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/01-get-data-in-power-bi/01-get-data.zip
+  duration: 30 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - GitHub
+    - Power BI
 ---
 
 # Get data in Power BI
