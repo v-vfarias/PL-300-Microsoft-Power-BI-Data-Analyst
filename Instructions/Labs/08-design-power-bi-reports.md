@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Design Power BI reports'
-    module: 'Design Power BI reports'
+  title: Design Power BI reports
+  module: Design Power BI reports
+  description: In this task, you'll publish the report to the Power BI service. You will then explore the published report behavior.
+  duration: 45 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Design Power BI reports
