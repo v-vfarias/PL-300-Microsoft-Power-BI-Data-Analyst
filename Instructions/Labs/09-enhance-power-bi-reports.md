@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Enhance Power BI report designs'
-    module: 'Enhance Power BI report designs for the user experience'
+  title: Enhance Power BI report designs
+  module: Enhance Power BI report designs for the user experience
+  description: In this exercise, you'll publish the report to the Power BI service and explore the published report behavior.
+  duration: 45 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Enhance Power BI report design
