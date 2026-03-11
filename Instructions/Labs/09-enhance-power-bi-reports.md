@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Enhance Power BI report designs'
-    module: 'Enhance Power BI report designs for the user experience'
+  title: Enhance Power BI report designs
+  module: Enhance Power BI report designs for the user experience
+  description: In this hands-on lab, you'll enhance your Power BI reports with advanced design features including drill-through pages for detailed analysis, conditional formatting to highlight key insights, and interactive bookmarks and buttons for improved navigation. You'll gain practical experience creating sophisticated, user-friendly reports that provide deeper insights and better user experience through these advanced interactivity features.
+  duration: 45 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Enhance Power BI report design

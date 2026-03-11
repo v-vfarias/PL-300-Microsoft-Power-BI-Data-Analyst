@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Secure data access in Power BI'
-    module: 'Secure data access in Power BI'
+  title: Secure data access in Power BI
+  module: Secure data access in Power BI
+  description: In this hands-on lab, you'll learn to implement dynamic row-level security (RLS) in Power BI to restrict data access based on user identity. You'll create and test security roles using the USERPRINCIPALNAME() function to ensure that salespeople can only analyze sales data for their assigned region(s), protecting sensitive information and providing personalized data views.
+  duration: 20 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Secure data access in Power BI

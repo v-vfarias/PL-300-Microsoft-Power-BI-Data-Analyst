@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Use DAX time intelligence functions in Power BI'
-    module: 'Use DAX time intelligence functions in Power BI'
+  title: Use DAX time intelligence functions in Power BI
+  module: Use DAX time intelligence functions in Power BI
+  description: In this hands-on lab, you'll learn to create DAX measures using time intelligence functions to perform date-specific calculations such as year-to-date (YTD), prior year comparisons, and other time-based aggregations. You'll gain practical experience manipulating filter context to analyze data across different time periods, enabling you to build powerful temporal analytics into your Power BI reports.
+  duration: 15 minutes
+  level: 400
+  islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Use DAX time intelligence functions in Power BI

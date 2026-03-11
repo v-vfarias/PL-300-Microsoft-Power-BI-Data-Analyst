@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Perform analytics in Power BI'
-    module: 'Perform analytics in Power BI'
+  title: Perform analytics in Power BI
+  module: Perform analytics in Power BI
+  description: In this hands-on lab, you'll create a Sales Exploration report and learn to perform advanced analytics in Power BI using animated scatter charts and forecasting capabilities. You'll gain practical experience building dynamic scatter charts that visualize data patterns over time through animation and using built-in analytical features to forecast future values directly within your visuals.
+  duration: 30 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Perform analytics in Power BI

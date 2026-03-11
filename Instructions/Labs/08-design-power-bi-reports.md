@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Design Power BI reports'
-    module: 'Design Power BI reports'
+  title: Design Power BI reports
+  module: Design Power BI reports
+  description: In this hands-on lab, you'll design a multi-page Power BI report by configuring visuals, formatting properties, and synchronizing slicers to create an interactive experience. You'll then publish your report to the Power BI service and learn to interact with the published report and its visuals in the cloud environment.
+  duration: 45 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Design Power BI reports

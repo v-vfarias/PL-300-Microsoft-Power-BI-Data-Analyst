@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Get data in Power BI'
-    module: 'Get data in Power BI'
+  title: Get data in Power BI
+  module: Get data in Power BI
+  description: In this hands-on lab, you'll gain practical experience connecting Power BI Desktop to different data sources (including SQL Server) and importing data. You'll learn to use Power Query to preview source data and apply data profiling techniques to understand data characteristics and assess data quality. This foundational lab establishes essential skills for data acquisition and initial data assessment in Power BI.
+  duration: 30 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Get data in Power BI
