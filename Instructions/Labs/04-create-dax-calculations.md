@@ -2,10 +2,12 @@
 lab:
   title: Create DAX calculations in semantic models
   module: Create DAX calculations in semantic models
-  description: In this lab, you'll create calculated tables, calculated columns, and simple measures by using Data Analysis Expressions (DAX).
+  description: In this hands-on lab, you'll learn to create DAX (Data Analysis Expressions) calculations to enhance your semantic model, including calculated tables, calculated columns, and measures. You'll gain practical experience writing DAX formulas using the formula bar with features like auto-complete and IntelliSense to build custom calculations that extend your data model's analytical capabilities.
   duration: 45 minutes
-  level: 200
+  level: 400
   islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Create DAX calculations in semantic models

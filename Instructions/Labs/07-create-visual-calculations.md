@@ -2,9 +2,9 @@
 lab:
   title: Create visual calculations in Power BI Desktop
   module: Create visual calculations in Power BI Desktop
-  description: In this lab, you'll create visual calculations using Data Analysis Expressions (DAX).
+  description: In this hands-on lab, you'll learn to create and edit visual calculations using DAX functions like PREVIOUS(), RUNNINGSUM(), and MOVINGAVERAGE() to build comparison metrics between fiscal years. You'll gain practical experience using optional Axis and Reset parameters to customize cumulative calculations in multi-leveled axes, enabling you to create dynamic, context-aware calculations directly within your Power BI visuals.
   duration: 30 minutes
-  level: 100
+  level: 300
   islab: true
   primarytopics:
     - Power BI

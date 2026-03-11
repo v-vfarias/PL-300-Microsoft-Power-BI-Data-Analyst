@@ -2,9 +2,9 @@
 lab:
   title: (Optional) Create dashboards in Power BI
   module: Create dashboards in Power BI
-  description: In this lab, you'll create the Sales Monitoring dashboard in the Power BI service using an existing report.
+  description: In this hands-on lab, you'll learn to create a Sales Monitoring dashboard in the Power BI service by pinning visuals from an existing report and using Q&A (natural language queries) to create dashboard tiles. You'll gain practical experience building interactive dashboards that consolidate key metrics and insights from multiple reports into a single, easy-to-consume view for monitoring business performance.
   duration: 30 minutes
-  level: 200
+  level: 300
   islab: true
   primarytopics:
     - Power BI

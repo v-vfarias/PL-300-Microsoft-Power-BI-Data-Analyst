@@ -2,9 +2,9 @@
 lab:
   title: Configure a semantic model in Power BI
   module: Configure a semantic model in Power BI
-  description: In this lab, you'll commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You'll also create hierarchies and quick measures.
+  description: In this hands-on lab, you'll develop a data model by creating relationships between tables and configuring table and column properties to improve usability and user-friendliness. You'll also learn to create hierarchies for drill-down analysis, build quick measures for common calculations, and configure many-to-many relationships to handle complex data scenarios.
   duration: 45 minutes
-  level: 100
+  level: 300
   islab: true
   primarytopics:
     - Power BI
