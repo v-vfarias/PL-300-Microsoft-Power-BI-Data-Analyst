@@ -163,6 +163,8 @@ In this task, you'll run a PowerShell script to update data in the **AdventureWo
 
     ![Picture 28](Linked_image_Files/12-create-power-bi-dashboard_image46.png)
 
+    > ***Note**: This script should only be run once. Running it more than once will cause a primary key constraint error.*
+
 1. If prompted to change the execution policy, press **A**.
 
 1. When prompted to press any key to close, press **Enter** again.
