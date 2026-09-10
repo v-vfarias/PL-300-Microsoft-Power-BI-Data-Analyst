@@ -1,0 +1,31 @@
+relationship 7e9ad06a-2dc5-5831-64a3-6d98d0da8f7f
+	fromColumn: Sales.ProductKey
+	toColumn: Product.ProductKey
+
+relationship 29d97fb5-6aa2-9d84-37d0-73270631b27a
+	fromColumn: Sales.SalesTerritoryKey
+	toColumn: Region.SalesTerritoryKey
+
+relationship d82fb0dc-caa6-f642-56c3-74be07d169f7
+	isActive: false
+	fromColumn: Sales.EmployeeKey
+	toColumn: 'Salesperson (Performance)'.EmployeeKey
+
+relationship 3e925182-487e-d131-8cea-513529f0fc76
+	fromColumn: Sales.ResellerKey
+	toColumn: Reseller.ResellerKey
+
+relationship 24710f3d-437c-36ed-a48d-2bd6e0ab3c89
+	fromColumn: SalespersonRegion.EmployeeKey
+	toColumn: 'Salesperson (Performance)'.EmployeeKey
+
+relationship 5c4aa86a-cf04-6fca-e382-646e528ab4a2
+	crossFilteringBehavior: bothDirections
+	securityFilteringBehavior: bothDirections
+	fromColumn: SalespersonRegion.SalesTerritoryKey
+	toColumn: Region.SalesTerritoryKey
+
+relationship 4f52607c-3a9c-3948-ed90-0b8083acef40
+	fromColumn: Targets.EmployeeID
+	toColumn: 'Salesperson (Performance)'.EmployeeID
+
