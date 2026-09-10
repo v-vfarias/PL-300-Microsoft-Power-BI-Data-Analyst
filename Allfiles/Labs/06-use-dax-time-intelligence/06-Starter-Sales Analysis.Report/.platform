@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "06-Starter-Sales Analysis"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "25dc7bc4-17a0-4970-bff5-6c094001c47a"
+  }
+}
