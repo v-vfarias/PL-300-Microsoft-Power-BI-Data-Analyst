@@ -1,0 +1,7 @@
+model Model
+	culture: en-US
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref cultureInfo en-US
+
