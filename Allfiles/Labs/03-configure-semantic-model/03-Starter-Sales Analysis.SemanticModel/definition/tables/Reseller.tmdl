@@ -1,0 +1,69 @@
+table Reseller
+	lineageTag: 8f18aec2-8698-42c2-a2d0-6e0ab97c60ed
+
+	column ResellerKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 6e7e9057-9f99-4e3d-b97a-8f1971657186
+		summarizeBy: count
+		sourceColumn: ResellerKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Business Type'
+		dataType: string
+		lineageTag: 22cb0578-d589-4fc7-8658-750d9783ca51
+		summarizeBy: none
+		sourceColumn: Business Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Reseller
+		dataType: string
+		lineageTag: b487d3bb-83eb-4ca3-a470-8efb781d68d2
+		summarizeBy: none
+		sourceColumn: Reseller
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: 35c811f8-8abf-442d-a31e-71b02f7e1af3
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column State-Province
+		dataType: string
+		lineageTag: 987ad92b-87ef-4c9a-87aa-7cd7c9a3036b
+		summarizeBy: none
+		sourceColumn: State-Province
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country-Region
+		dataType: string
+		lineageTag: aa6ac85c-86e5-4f58-b75a-8376c0c8ac42
+		summarizeBy: none
+		sourceColumn: Country-Region
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Reseller = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database(SQLInstance, Database),
+				    dbo_DimReseller = Source{[Schema="dbo",Item="DimReseller"]}[Data],
+				    #"Removed Other Columns" = Table.SelectColumns(dbo_DimReseller,{"ResellerKey", "BusinessType", "ResellerName", "DimGeography"}),
+				    #"Expanded DimGeography" = Table.ExpandRecordColumn(#"Removed Other Columns", "DimGeography", {"City", "StateProvinceName", "EnglishCountryRegionName"}, {"City", "StateProvinceName", "EnglishCountryRegionName"}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Expanded DimGeography","Ware House","Warehouse",Replacer.ReplaceText,{"BusinessType"}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Replaced Value",{{"BusinessType", "Business Type"}, {"ResellerName", "Reseller"}, {"StateProvinceName", "State-Province"}, {"EnglishCountryRegionName", "Country-Region"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

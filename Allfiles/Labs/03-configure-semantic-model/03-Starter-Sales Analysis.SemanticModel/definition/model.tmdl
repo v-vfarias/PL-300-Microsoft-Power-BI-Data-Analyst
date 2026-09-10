@@ -1,0 +1,28 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		fastCombine
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Salesperson","SalespersonRegion","Product","Reseller","Region","Sales","Targets","ColorFormats","SQLInstance","Database"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Salesperson
+ref table DateTableTemplate_71b62656-4f79-44d6-8e5f-352b63b9038b
+ref table SalespersonRegion
+ref table Product
+ref table Reseller
+ref table Region
+ref table Sales
+ref table LocalDateTable_16fbdeb4-712e-4ddc-b3bc-a4ccf40997f9
+ref table Targets
+ref table LocalDateTable_9a314a98-9ac1-403f-a182-ab6e2835e42f
+
+ref cultureInfo en-US
+
