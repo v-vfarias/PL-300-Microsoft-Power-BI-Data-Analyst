@@ -1,0 +1,8 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../08-Solution-Sales Analysis.SemanticModel"
+    }
+  }
+}
